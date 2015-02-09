@@ -17,10 +17,4 @@ class Page(models.Model):
     def __unicode__(self):
         return self.title
 
-class PageAdmin(admin.ModelAdmin):
-    list_display = ('title', 'category', 'url')
-
-    def __unicode__(self):
-        return self.title
-
 
