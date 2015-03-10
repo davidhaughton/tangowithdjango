@@ -1,9 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- Is anyone getting tired of repeatedly entering the header over and over?? -->
-        <title>Rango</title>
-    </head>
+{% extends "rango/base.html" %}
+
+{% load staticfiles %}
+
+{% block title %}Login{% endblock %}
+
+{% block body_block %}
+
+    <div class="page-header">
+        <h1>Login</h1>
+    </div>
 
     <body>
         <h1>Login to Rango</h1>
@@ -19,4 +24,4 @@
         </form>
 
     </body>
-</html>
+{% endblock %}
