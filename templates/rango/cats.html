@@ -1,10 +1,12 @@
 {% if cats %}
     <ul class="nav nav-sidebar">
     {% for c in cats %}
-        <a href="/rango/category/{{ category.slug }} ">{{ c.name }}</a></li>
+       <li><a href="/rango/category/{{ category.slug }} ">{{ c.name }}</a></li>
     {% endfor %}
+
 {% else %}
     <li> <strong >There are no category present.</strong></li>
+
     </ul>
 {% endif %}
 
