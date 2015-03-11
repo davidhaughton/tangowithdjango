@@ -20,7 +20,6 @@ from django.shortcuts import redirect
     # Take the user back to the homepage.
   #  return HttpResponseRedirect('/rango/')
 
-
 def track_url(request):
     page_id = None
     url = '/rango/'

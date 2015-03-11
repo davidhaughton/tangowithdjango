@@ -10,17 +10,17 @@ from rango.models import Category, Page
 def populate():
     python_cat = add_cat(name='Python',views=128,likes = 64)
 
-    python_cat = add_cat(name='2080734h',views=0,likes=0)
+    my_cat = add_cat(name='2080734h',views=0,likes=0)
 
     add_page(cat=python_cat,
         title="Official Python Tutorial",
         url="http://docs.python.org/2/tutorial/")
 
-    add_page(cat=python_cat,
+    add_page(cat=my_cat,
         title="My github page",
         url="https://github.com/davidhaughton")
 
-    add_page(cat=python_cat,
+    add_page(cat=my_cat,
         title="My pythonanywhere.com page",
         url="https://www.pythonanywhere.com/user/davidhaughton/consoles/")
 
@@ -46,7 +46,7 @@ def populate():
         title="How to Tango with Django",
         url="http://www.tangowithdjango.com/")
 
-    frame_cat = add_cat(name="Other Frameworks",views=900000,likes=16)
+    frame_cat = add_cat(name="other-frameworks",views=900000,likes=16)
 
     add_page(cat=frame_cat,
         title="Bottle",
@@ -55,6 +55,7 @@ def populate():
     add_page(cat=frame_cat,
         title="Flask",
         url="http://flask.pocoo.org")
+
 
     # Print out what we have added to the user.
     for c in Category.objects.all():
