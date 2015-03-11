@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad39c443-5ebb-4742-ac45-59dc3c0c37ed" name="Default" comment="">
-      <change type="DELETED" beforePath="H:\project1\templates\rango\New Text Document.txt" afterPath="" />
-      <change type="DELETED" beforePath="H:\project1\templates\registration\New Text Document.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/rango/base.html" afterPath="$PROJECT_DIR$/templates/rango/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/rango/cats.html" afterPath="$PROJECT_DIR$/templates/rango/cats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/rango/category.html" afterPath="$PROJECT_DIR$/templates/rango/category.html" />
     </list>
     <ignored path="project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cats.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cats.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/rango/cats.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07589286" vertical-offset="0" max-vertical-offset="896">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="306">
               <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
@@ -84,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="category.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/rango/category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-38.576923" vertical-offset="0" max-vertical-offset="1394">
-              <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.3984375" vertical-offset="0" max-vertical-offset="1360">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,13 +158,13 @@
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/templates/rango/about.html" />
         <option value="$PROJECT_DIR$/rango/templatetags/rango_extras.py" />
-        <option value="$PROJECT_DIR$/templates/rango/category.html" />
         <option value="$PROJECT_DIR$/templates/rango/index.html" />
         <option value="$PROJECT_DIR$/populate_rango.py" />
         <option value="$PROJECT_DIR$/rango/views.py" />
         <option value="$PROJECT_DIR$/rango/urls.py" />
         <option value="$PROJECT_DIR$/templates/rango/base.html" />
         <option value="$PROJECT_DIR$/templates/rango/cats.html" />
+        <option value="$PROJECT_DIR$/templates/rango/category.html" />
       </list>
     </option>
   </component>
@@ -539,7 +534,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -935,22 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="340">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rango/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.576923" vertical-offset="0" max-vertical-offset="1394">
-          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rango/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="922">
@@ -987,8 +966,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/rango/cats.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07589286" vertical-offset="0" max-vertical-offset="896">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="306">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="340">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rango/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3984375" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
